@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week6</title>
+
+    <!----- Hand CSS ----->
+
+    <link rel="stylesheet" href="../assets/css/hand.css">
+
+    <!----- Font ----->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+
+    <div class="bg-primary">
+      <picture>
+        <source media="(max-width: 576px)" srcset="/assets/images/about-banner-sm.png">
+        <img class="w-100" src="/assets/images/about-banner.png" alt="garden">
+      </picture>
+
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mt-4">
+            <li class="breadcrumb-item"><a href="#">首頁</a></li>
+            <li class="breadcrumb-item">關於我們</li>
+          </ol>
+        </nav>
+  
+        <h4 class="fw-bold">關於我們</h4>
+      </div>
+
+      <section class="container box-p">
+        <div class="flex-column d-sm-flex flex-sm-row row ">
+          <picture class="col">
+            <source media="(max-width: 576px)" srcset="/assets/images/about-1-sm.png">
+            <img class="sm-w lg-w" src="/assets/images/about-1.png" alt="window">
+          </picture>
+  
+          <div class="col lg-ml">
+            <div class="h-mb">
+              <h4 class="mb-2 fw-bold mt-3">Vivre</h4>
+  
+              <p class="text-g-400">
+                vivre 這個品牌名稱源自法語,意為"生活"、"活著"。它象徵著我們對於高品質生活的熱愛與追求。vivre 旨在成為一個分享美好生活體驗、發掘生活質感的平台。
+              </p>
+            </div>
+
+            <div>
+              <p class="fw-bold mb-2">我們的品牌價值</p>
+  
+              <ul class="text-g-400 list-unstyled">
+                <li class="mb-2">．&nbsp;熱愛生活,好奇心永存</li>
+                <li class="mb-2">．&nbsp;品味獨具,講究生活質感</li>
+                <li class="mb-2">．&nbsp;分享真實生活,啟發生活靈感</li>
+                <li class="mb-2">．&nbsp;推廣慢生活哲學,注重內在修為</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-column flex-column-reverse d-sm-flex flex-sm-row row mt-5">
+          <div class="col">
+            <div class="h-mb">
+              <h4 class="mb-2 fw-bold mt-3">風格特色</h4>
+  
+              <p class="text-g-400">
+                vivre 所展現的風格特色,可以用知性、親和、用心、優雅與獨特這些詞語來概括。我們講求內容的原創性與探索精神,不跟風追隨潮流話題,而是真誠分享獨特的生活視角與體驗。無論是旅行、美食、居家、時尚等生活領域,我們都希望能夠呈現出與眾不同、縝密入微、內外兼具的見解,給讀者帶來嶄新的感受和啟迪。
+              </p>
+            </div>
+
+            <div>
+              <p class="text-g-400">無論您是對美食、旅行、居家生活還是時尚風尚有獨到的見解和體會,只要切合vivre的價值理念與風格調性,我們都熱烈歡迎您加入這個平台,與我們一起分享和交流生活的點點滴滴。
+              </p>
+            </div>
+          </div>
+          
+          <picture class="col lg-ml">
+            <source media="(max-width: 576px)" srcset="/assets/images/about-2-sm.png">
+            <img class=" sm-w lg-w" src="/assets/images/about-2.png" alt="window">
+          </picture>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-primary200">
+      <section class="container py-5">
+        <div class="row">
+          <div class="d-sm-flex justify-content-sm-between">
+            <h3 class="text-center fw-bold mb-4">大事記</h3>
+  
+            <div class="col-sm-8">
+              <div class="container">
+                <div class="mb-5 d-sm-flex">
+                  <p class="p-3 bg-primary400 d-inline-block text-white fw-bold mb-4 me-5 h-25">2020</p>
+    
+                  <div>
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">5月</p>
+      
+                      <p class="ps-3 border-start border-2 fw-bold">創辦人茱麗葉、亞歷山大和幾個好友在巴黎開設 vivre 生活部落格,紀錄分享他們對美好生活的想法和體驗。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">10月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">部落格內容和讀者人數逐漸累積,決定成立 vivre 品牌,開發更多元豐富的內容。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="container">
+                <div class="mb-5 d-sm-flex">
+                  <p class="p-3 bg-primary400 d-inline-block text-white fw-bold mb-4 me-5 h-25">2021</p>
+    
+                  <div>
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">3月</p>
+      
+                      <p class="ps-3 border-start border-2 fw-bold">vivre 網站正式上線,除了原創文字內容,還加上了視訊、音訊等多媒體形式。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">7月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">與法國本土品牌合作,推出 vivre 首個自有產品線,包括家飾、餐飲用品等生活品味商品。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">12月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">總瀏覽人次突破 100 萬大關,獲得實體出版社青睞,出版 vivre 生活風格書籍。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="container">
+                <div class="mb-5 d-sm-flex">
+                  <p class="p-3 bg-primary400 d-inline-block text-white fw-bold mb-4 me-5 h-25">2022</p>
+    
+                  <div>
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">3月</p>
+      
+                      <p class="ps-3 border-start border-2 fw-bold">推出 vivre 生活風格線上課程,聘請各領域專家開設有深度的付費課程。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">8月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">vivre 舉辦首屆 vivre 生活節,線上線下同步展開,現場湧入大批品牌粉絲朋友。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">10月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">vivre 完成 A 輪融資,獲得知名風投資金青睞。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="container">
+                <div class="mb-5 d-sm-flex">
+                  <p class="p-3 bg-primary400 d-inline-block text-white fw-bold mb-4 me-5 h-25">2023</p>
+    
+                  <div>
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">1月</p>
+      
+                      <p class="ps-3 border-start border-2 fw-bold">vivre 宣布品牌願景"探索更美好的生活",並推出全新視覺形象。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">5月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">正式推出付費訂閱會員服務,提供高階獨家內容和會員優惠。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">9月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">首次評選年度" vivre 生活風格大獎",表彰在各領域具有開創性的人物及品牌。</p>
+                    </div>
+    
+                    <div class="d-flex mb-4">
+                      <p class=" pe-2 fw-bold text-g-400">11月</p>
+    
+                      <p class="ps-3 border-start border-2 fw-bold">首次登場的" vivre 生活節沙龍"在全球主要城市同步舉行,線上線下吸引百萬人觀看。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 mx-auto py-5 px-3">
+             <h3 class="fw-bold text-center mb-4 text-g-500">品牌願景</h3>
+  
+             <p class="text-g-400 fw-bold mb-4">
+              我們的目標不僅是為讀者提供高水準的內容,更希望能真正啟發和影響讀者的生活方式與價值觀,引領走向更有意義、品質與質感的生活體驗。我們相信,生活的意義不僅僅在於外在物質條件的滿足,更多的是一種心靈層面的追求,一種對美好事物的不懈向往。因此,vivre 的定位是成為啟迪現代人內在生活的引路人,給予靈感啟迪,引領讀者去體驗生活的真諦。
+             </p>
+  
+             <p class="text-g-400 fw-bold">
+              我們衷心期盼,vivre 能為現代人的生活帶來無限靈感啟發,讓每個人的生活之路不僅優雅、從容,更有內在的意義與價值,豐富而燦爛。讓我們共同努力,將生活過得更有滋有味!期待您一同加入 vivre,攜手同行這段美妙的人生旅程。
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <%- include('./layout/footer'); -%>
+    
+    
+    
+    
+    
+    
+    
+    <!----- Java Script ----->
+
+      <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+      <!-- Vite -->
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

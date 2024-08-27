@@ -1,0 +1,61 @@
+.breadcrumb-item {
+  font-size: 14px;
+}
+
+
+
+.breadcrumb-item:hover {
+  color: #569573;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 576px) {
+  .breadcrumb-item {
+    font-size: 16px;
+    margin-top: 80px;
+  }
+
+  .mt {
+    margin-top: 48px;
+  }
+
+  .lg-w {
+    width: 100%;
+  }
+
+  .h-mt,
+  .h4-mt {
+    margin-top: 80px;
+  }
+
+  .h-mb {
+    margin-bottom: 36px;
+  }
+
+  .lg-ml {
+    margin-left: 40px;
+  }
+
+  .box-p {
+    padding: 80px 0px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .sm-w {
+    width: calc(100% + 24px);
+
+    margin-left: -12px;
+  }
+
+  .h-mb {
+    margin-bottom: 16px;
+  }
+
+  .box-p {
+    padding: 40px 0px;
+  }
+}
